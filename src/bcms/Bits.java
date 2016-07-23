@@ -24,6 +24,8 @@ public class Bits {
 		System.out.println("[numero >> 1 = ((numero-1) / 2)]");
 		numeroB = numeroB >> 1;
 		System.out.println("Decimal = "+numeroB+"\tBinario = "+Integer.toBinaryString(numeroB));
-	}
+}}
 
-}
+/*
+ * Ainda existe o >>> que é exclusivo do Java, a diferença dele em relação ao >> é que ele desloca também o bit de sinal
+ */
